@@ -93,6 +93,37 @@
 }
 
 
+@keyframes bounce {
+  0% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+
+}
+
+@keyframes revealText {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.welcome h1 {
+  animation: revealText 2s forwards;
+}
+
+
+.wrapper {
+  animation: bounce 1s ;
+}
+
+
+
+
 /* For WebKit based browsers (Chrome, Safari) */
 ::-webkit-scrollbar {
   width: 8px; /* Width of the scrollbar */
