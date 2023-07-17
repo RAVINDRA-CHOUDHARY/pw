@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&display=swap");
 * {
   margin: 0px;
-  padding: 0px;
   box-sizing: border-box;
+}
+body{
+  background-color: rgb(26, 26, 26);
 }
 .welcome {
   width: 100%;
@@ -57,9 +59,11 @@
 }
 
 .title{
+  border-left:  10px solid green;
   font-size: 26px;
   margin-bottom: 10px;
   font-weight: bold;
+  padding-left: 10px;
 }
 .project{
   grid-column-start: 3;
@@ -78,16 +82,52 @@
   grid-column-end: 4;
   grid-row-start: 2;
 }
+footer{
+  display: none;
+}
 
 @media only screen and (max-width: 900px) {
   .wrapper{
     display: block;
   }
+  .welcome{
+    display: none;
+  }
   .welcome h1{
     font-size: 24px;
   }
+  .intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .intro img{
+    width: 80px;
+    height: 80px;
+    top: 0px;
+    margin: 20px;
+  }
+  .intro h1{
+    font-size: 14px;
+    margin: 0px;
+  }
+  .education, .skills, .experience ,.project, .achei {
+    font-size: 12px;
+    padding: 15px;
+    border-radius: 10px;
+  }
   .achei{
     padding-bottom: 20px;
+  }
+  .title{
+    font-size: 16px;
+  }
+  footer{
+    font-size: 10px;
+    display: block;
+    text-align: center;
+    color: rgba(240, 248, 255, 0.621);
+    margin-bottom: 20px;
   }
   
 }
