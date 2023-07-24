@@ -1,117 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PW</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio | Shubham Ashish</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./assets/style.css" />
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>">
-    
-</head>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🅿️</text></svg>"
+    />
+  </head>
 
-<body>
+  <body>
     <div class="welcome">
-        <h1>Welcome to my Portfolio 🚀</h1>
+      <h1>Hii! I'm Shubham Ashish</h1>
+      <!-- <button class="download" onclick=""> Download Resume </button> -->
+      <a href="./assets/files/Resume@ShubhamAshish.pdf"
+        >Resume <i class="fa-solid fa-arrow-up-right-from-square"></i
+      ></a>
+      <div class="popup-container">
+        <div class="popup">
+          <p>Scroll down for more content</p>
+        </div>
+      </div>
     </div>
     <div class="main">
-        <div class="intro">
-            <img src="./images/pp.JPG" alt="" />
-            <h1>Shubham Ashish</h1>
+      <div class="intro">
+        <div class="img">
+          <img src="./images/pp.JPG" alt="" />
         </div>
-        <div class="wrapper">
-            <div class="education">
-                <div class="title">Eduacation Background</div>
-                <p>
-                    <b>B.Tech CSE</b> - G.H. Raisoni College of Engineering, Nagpur
-                    <br />
-                    2019- 2023
-                    <br />
-                    CGPA 8.98 RTMNU
-                </p>
-                <br />
-                <p>
-                    <b>Higher Secondary 12th</b> - SherShah College, Sasaram
-                    <br />
-                    2017-2019
-                    <br />
-                    74.4% BSEB
-                </p>
-                <br />
-                <p>
-                    <b>Senior Secondary 10th</b> - Bal Vikas Vidyalaya, Sasaram
-                    <br />
-                    2017
-                    <br />
-                    9.4 CGPA CBSE
-                </p>
-            </div>
-            <div class="skills">
-                <div class="title">Technical Skills</div>
-                <p>
-                    Programming Language: <i class="fa-brands fa-python"></i> Python, C++, <i class="fa-brands fa-java"></i> Java <br />
-                    Framework: React, Flask <br />
-                    FrontEnd: HTML, CSS, JS Database: pgsql, SQLite, MySQL
-                </p>
-            </div>
-            <div class="experience">
-                <div class="title">Experience</div>
-                <p>
-                    <b>Trainee Consultant</b> - Geecon System Pvt Ltd.
-                    <br />
-                    <b>12/2022 - 05/2023</b>
-                    <br />
-                    Designed and Devloped A Task Management Website with help of HMTL,
-                    CSS and JavaScript and connected to the database of MySQL and hosted
-                    on XAMPP Server(localhost)
-                    <br />
-                    <br />
-                    <b>Graphics Design Intern</b> - SenseLive
-                    <br />
-                    <b>02/2021 - 03/2021</b>
-                    <br />
-                    Worked on the Brochure Design, Graphics for the dashboard UI, Logo,
-                    and more.Designed illustrations for the project which totally suit
-                    the idea of the company
-                </p>
-            </div>
-            <div class="project">
-                <div class="title">Projects</div>
-                <p>
-                    <b>Real Time Face Detection using OpenCV</b>
-                <ul>
-                    <li>Using OpenCV module for Facial Detection in Real Time. </li>
-                    <li>Built using Python.</li>
-                </ul>
-                </p>
-                <br>
-                <p>
-                    <b>Weather App</b>
-                <ul>
-                    <li>Built using HTML/CSS/JavaScript and Open Weather API.</li>
-                    <li>Hosted on <i class="fa-brands fa-github"></i> Pages.</li>
-                </ul>
-                </p>
-            </div>
-            <div class="achei">
-                <div class="title">
-                    Achievement
-                </div>
-                <p>
-                <ul>
-                    <li>
-                        Gold Badge in HackerRank (Python) <i class="fa-brands fa-hackerrank"></i>.
-                    </li>
-                    <li>Among the Top 5 Geeks in our college on GFG.  </li>
-                    <li>Solved more than 200+ problems across GFG, Leetcode</li>
-                </ul>
-                </p>
-            </div>
+        <h1>Shubham Ashish</h1>
+      </div>
+      <div class="wrapper">
+        <div class="education collapsible">
+          <div class="title">Eduacation Background</div>
+          <p class="para">
+            <b>B.Tech CSE</b> - G.H. Raisoni College of Engineering, Nagpur
+            <br />
+            2019- 2023
+            <br />
+            CGPA 8.98 RTMNU
+            <br />
+            <br />
+            <b>Higher Secondary 12th</b> - SherShah College, Sasaram
+            <br />
+            2017-2019
+            <br />
+            74.4% BSEB
+            <br />
+            <br />
+            <b>Senior Secondary 10th</b> - Bal Vikas Vidyalaya, Sasaram
+            <br />
+            2017
+            <br />
+            9.4 CGPA CBSE
+          </p>
         </div>
+        <div class="skills collapsible">
+          <div class="title">Technical Skills</div>
+          <p class="para">
+            Programming Language: <i class="fa-brands fa-python"></i> Python,
+            C++, <i class="fa-brands fa-java"></i> Java <br />
+            Framework: React, Flask <br />
+            FrontEnd: HTML, CSS, JS Database: pgsql, SQLite, MySQL
+          </p>
+        </div>
+        <div class="experience collapsible">
+          <div class="title">Experience</div>
+          <p class="para">
+            <b>Trainee Consultant</b> - Geecon System Pvt Ltd.
+            <br />
+            <b>12/2022 - 05/2023</b>
+            <br />
+            Designed and Devloped A Task Management Website with help of HMTL,
+            CSS and JavaScript and connected to the database of MySQL and hosted
+            on XAMPP Server(localhost)
+            <br />
+            <br />
+            <b>Graphics Design Intern</b> - SenseLive
+            <br />
+            <b>02/2021 - 03/2021</b>
+            <br />
+            Worked on the Brochure Design, Graphics for the dashboard UI, Logo,
+            and more.Designed illustrations for the project which totally suit
+            the idea of the company
+          </p>
+        </div>
+        <div class="project collapsible">
+          <div class="title">Projects</div>
+          <div class="para">
+            <b>Real Time Face Detection using OpenCV</b>
+
+            <ul>
+              <li>Using OpenCV module for Facial Detection in Real Time.</li>
+              <li>Built using Python.</li>
+            </ul>
+            <br />
+            <br />
+            <b>Weather App</b>
+            <ul>
+              <li>Built using HTML/CSS/JavaScript and Open Weather API.</li>
+              <li>Hosted on <i class="fa-brands fa-github"></i> Pages.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="achei collapsible">
+          <div class="title">Achievement</div>
+          <ul class="para">
+            <li>
+              Gold Badge in HackerRank (Python)
+              <i class="fa-brands fa-hackerrank"></i>.
+            </li>
+            <li>Among the Top 5 Geeks in our college on GFG.</li>
+            <li>Solved more than 200+ problems across GFG, Leetcode</li>
+          </ul>
+        </div>
+      </div>
     </div>
     <footer>Made by 🐼</footer>
     <script src="./assets/script.js"></script>
-</body>
-
+  </body>
 </html>
